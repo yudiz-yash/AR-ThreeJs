@@ -1,9 +1,6 @@
-import '../css/global.css';
-import '../scss/global.scss';
-
 import Three from './three';
 
-document.addEventListener('DOMContentLoaded', () => {});
+document.addEventListener('DOMContentLoaded', () => { });
 
 window.addEventListener('load', () => {
   const canvas = document.querySelector('#canvas');
